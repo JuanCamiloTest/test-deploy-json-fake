@@ -1,8 +1,340 @@
 {
-  "transformers": [
+  "user": {
+    "menu": [
+      {
+        "id": 11,
+        "label": "Page_6",
+        "level": 2,
+        "parentItemId": 2,
+        "resource": "route/page_6"
+      },
+      {
+        "id": 140,
+        "label": "Page_8",
+        "level": 2,
+        "parentItemId": 130,
+        "resource": "route/page_8"
+      },
+      {
+        "id": 12,
+        "label": "Page_7",
+        "level": 2,
+        "parentItemId": 1,
+        "resource": "route/page_7"
+      },
+      {
+        "id": 1,
+        "label": "Home",
+        "level": 0
+      },
+      {
+        "id": 3,
+        "label": "Security",
+        "level": 0
+      },
+      {
+        "id": 4,
+        "label": "Group_1",
+        "level": 1,
+        "parentItemId": 3
+      },
+      {
+        "id": 130,
+        "label": "Group_30",
+        "level": 1,
+        "parentItemId": 10
+      },
+      {
+        "id": 5,
+        "label": "Page_1",
+        "level": 2,
+        "parentItemId": 10,
+        "resource": "route/page"
+      },
+      {
+        "id": 8,
+        "label": "Page_4",
+        "level": 2,
+        "parentItemId": 4,
+        "resource": "route/page_4"
+      },
+      {
+        "id": 6,
+        "label": "Page_2",
+        "level": 2,
+        "parentItemId": 3,
+        "resource": "route/page_2"
+      },
+      {
+        "id": 2,
+        "label": "PLay",
+        "level": 0
+      },
+      {
+        "id": 9,
+        "label": "Page_5",
+        "level": 2,
+        "parentItemId": 2,
+        "resource": "route/page_5"
+      },
+      {
+        "id": 14,
+        "label": "Page_8",
+        "level": 2,
+        "parentItemId": 13,
+        "resource": "route/page_8"
+      },
+      {
+        "id": 7,
+        "label": "Page_3",
+        "level": 2,
+        "parentItemId": 4,
+        "resource": "route/page_3"
+      },
+      {
+        "id": 10,
+        "label": "Group_2",
+        "level": 1,
+        "parentItemId": 4
+      },
+      {
+        "id": 13,
+        "label": "Group_3",
+        "level": 1,
+        "parentItemId": 1
+      }
+    ],
+    "list": [
+      {
+        "id": 1,
+        "name": "Juan",
+        "age": 24,
+        "position": "FullStack Developer",
+        "salary": "20780000",
+        "viewMenu": 0
+      },
+      {
+        "id": 2,
+        "name": "Fabián",
+        "age": 34,
+        "position": "Adviser",
+        "salary": "4800000"
+      }
+    ]
+  },
+  "hero": {},
+  "cards": {
+    "suzuki": [
+      {
+        "name": "alto 800",
+        "wheels": "13"
+      }
+    ],
+    "chevrolet": [
+      {
+        "name": "montana",
+        "wheels": "15"
+      }
+    ]
+  },
+  "saga-transformers": {
+    "status": 200,
+    "pages": 1,
+    "menu": {
+      "Sagas": [
+        {
+          "level": 1,
+          "route": "/cibertron",
+          "name": "Transformers Cybertron"
+        },
+        {
+          "level": 1,
+          "route": "/armada",
+          "name": "Transformers Armada"
+        }
+      ],
+      "RobotsPrincipales": {
+        "level": 0,
+        "route": "/robots-principales"
+      }
+    },
+    "list": [
+      {
+        "name": "Optimus Prime",
+        "range": {
+          "id": "L",
+          "name": "Lider"
+        },
+        "team": {
+          "id": 0,
+          "name": "Autobots"
+        }
+      },
+      {
+        "name": "Arcee",
+        "range": {
+          "id": "G",
+          "name": "Guerrero"
+        },
+        "team": {
+          "id": 0,
+          "name": "Autobots"
+        }
+      },
+      {
+        "name": "Bumblebee",
+        "range": {
+          "id": "E",
+          "name": "Explorador"
+        },
+        "team": {
+          "id": 0,
+          "name": "Autobots"
+        }
+      },
+      {
+        "name": "Ratchet",
+        "range": {
+          "id": "M",
+          "name": "Médico"
+        },
+        "team": {
+          "id": 0,
+          "name": "Autobots"
+        }
+      },
+      {
+        "name": "Bulkhead",
+        "range": {
+          "id": "C",
+          "name": "Constructor"
+        },
+        "team": {
+          "id": 0,
+          "name": "Autobots"
+        }
+      },
+      {
+        "name": "Megatron",
+        "range": {
+          "id": "L",
+          "name": "Lider"
+        },
+        "team": {
+          "id": 1,
+          "name": "Decepticons"
+        }
+      },
+      {
+        "name": "Starscream",
+        "range": {
+          "id": "CO",
+          "name": "Comandante"
+        },
+        "team": {
+          "id": 1,
+          "name": "Decepticons"
+        }
+      },
+      {
+        "name": "Darksteel",
+        "range": {
+          "id": "H",
+          "name": "Hunters"
+        },
+        "team": {
+          "id": 2,
+          "name": "Predacons"
+        }
+      },
+      {
+        "name": "Airachnid",
+        "range": {
+          "id": "L",
+          "name": "Lider"
+        },
+        "team": {
+          "id": 3,
+          "name": "Insecticons"
+        }
+      },
+      {
+        "name": "Insecto 1",
+        "range": {
+          "id": "G",
+          "name": "Guerrero"
+        },
+        "team": {
+          "id": 3,
+          "name": "Insecticons"
+        }
+      },
+      {
+        "name": "Soldado 1",
+        "range": {
+          "id": "T",
+          "name": "Terrorcons"
+        },
+        "team": {
+          "id": 1,
+          "name": "Decepticons"
+        }
+      }
+    ]
+  },
+  "saga-transforers-cybertron": {
+    "list": {
+      "name": "Optimus Prime",
+      "range": {
+        "id": "L",
+        "name": "Lider"
+      },
+      "team": {
+        "id": 0,
+        "name": "Autobots"
+      },
+      "tieneYaveCybertron": "S"
+    }
+  },
+  "equipos-futbol-colombiano": {},
+  "menu-user": [
     {
-      "id": 1,
-      "name": "Optimus Prime"
+      "route": "uri_1",
+      "userVies": "all"
+    },
+    {
+      "route": "uri_1",
+      "userVies": "user1"
+    },
+    {
+      "route": "uri_1",
+      "userVies": "user23"
+    },
+    {
+      "route": [
+        {
+          "route": "uri_1"
+        }
+      ],
+      "userVies": "all"
+    },
+    {
+      "route": [
+        {
+          "route": "uri_1",
+          "userVies": "all"
+        }
+      ],
+      "userVies": "all"
+    },
+    {
+      "route": [
+        {
+          "route": "uri_1",
+          "userVies": "userN"
+        }
+      ],
+      "userVies": "all"
     }
   ]
 }
